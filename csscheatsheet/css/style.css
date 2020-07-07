@@ -143,3 +143,18 @@ a:active{
     padding:10px;
     box-sizing:border-box;
 }
+
+#main-block{
+    float:left;
+    width:70%;
+    box-sizing:border-box;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing:border-box;
+}
