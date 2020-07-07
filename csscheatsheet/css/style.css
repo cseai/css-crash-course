@@ -35,6 +35,10 @@ a:active{
    
 } */
 
+.clr{
+    clear: both;
+}
+
 .container{
     width: 80%;
     margin:auto; /* set margin both side auto */
@@ -132,3 +136,10 @@ a:active{
     width: 100%;
 }
 
+.block{
+    float:left;
+    width:33.3%;
+    border:1px solid #ccc;
+    padding:10px;
+    box-sizing:border-box;
+}
