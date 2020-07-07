@@ -18,6 +18,23 @@ body{
     margin:0;
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+a:visited{
+    color: black;
+}
+
 .container{
     width: 80%;
     margin:auto; /* set margin both side auto */
