@@ -96,3 +96,9 @@ a:visited{
     /* list-style:square; */
     list-style:none;
 }
+
+.categories li{
+    padding-bottom:6px;
+    border-bottom:dotted 1px #333;
+    list-style-image: url('../images/check.png');
+}
