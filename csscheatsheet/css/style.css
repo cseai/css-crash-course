@@ -158,3 +158,33 @@ a:active{
     padding: 15px;
     box-sizing:border-box;
 }
+
+.p-box{
+    position: relative;
+    width: 300px;
+    height:200px;
+    border:1px solid #000;
+    margin-top:30px;
+    background-image:url('../images/bgimage.jpg');
+
+    background-position: 10px 20px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.p-box h1{
+    position: absolute;
+    top:100px;
+    left: 50px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right:30px;
+}
+
+.fix-me{
+    position:fixed;
+    top:400px;
+}
